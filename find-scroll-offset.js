@@ -10,7 +10,6 @@
  */
 function findScrollTopOffset (el) {
 	el = el.parentNode;
-	console.log('el', el);
 	if (el) {
 		while (el && el.scrollTop == 0) {
 			el = el.parentNode || el.host;
